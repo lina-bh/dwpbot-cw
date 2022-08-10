@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "alwaysStrict": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "types": ["@cloudflare/workers-types"],
+    "moduleResolution": "Node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "test"]
+}
